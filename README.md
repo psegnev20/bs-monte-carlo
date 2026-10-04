@@ -1,5 +1,5 @@
 # bs-monte-carlo
 
-Option pricing engine — Black-Scholes analytical, Monte Carlo and binomial (Cox-Ross-Rubinstein), with Greeks, validated against each other and against published references.
+Option pricing in Python: analytical Black-Scholes with Greeks, Monte Carlo simulation and binomial tree, cross-validated against each other.
 
-*Status: in development (S1, Sept-Oct 2026).*
+*Status: in development (Oct 2026).*
