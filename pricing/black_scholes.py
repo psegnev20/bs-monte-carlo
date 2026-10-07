@@ -4,7 +4,7 @@ import scipy.stats as st
 def black_scholes_price(S,K,T,r, sigma, option_type):
     '''
     Calculate the Black-Scholes price for a European option.
-    Recibe un precio de Strike del subyacente en el momento inicial (S), precio de Strike de la opción (K), el tiempo en años (T), la tasa de interés free risk en decimales (r), la volatilidad del subyacente en decimales (sigma) y el option type que puedes ser tanto una call como una put.
+    Recibe un precio del subyacente en el momento inicial (S), precio de Strike de la opción (K), el tiempo en años (T), la tasa de interés free risk en decimales (r), la volatilidad del subyacente en decimales (sigma) y el option type que puedes ser tanto una call como una put.
     Esta función devuelve el precio justo de una opción europea a través del modelo de Black-Scholes.
     En caso de lanzar un ValueError, se debe a que se ha insertado un tipo de opción inválido.
     '''
